@@ -28,6 +28,12 @@ for file in $files; do
     ln -s $dir/$file ~/.$file
 done
 
+# Create a symlink from the default init.vim location to the dotfiles one
 mkdir ~/.config/nvim
 ln -s ~/dotfiles/init.vim ~/.config/nvim/init.vim
 
+# create a symlink from nvim folder for plugins and colorschemes to the dotfiles one
+mkdir ~/.local/share/nvim
+cd ~/.local/share/nvim
+ln -s ~/dotfiles/site .
+cd ~/dotfiles

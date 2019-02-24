@@ -1,0 +1,3 @@
+[submodule "site/pack/myplugins/opt/vim-dim"]
+	path = site/pack/myplugins/opt/vim-dim
+	url = git@github.com:jeffkreeftmeijer/vim-dim.git
