@@ -1,3 +1,6 @@
 [submodule "site/pack/myplugins/opt/vim-dim"]
 	path = site/pack/myplugins/opt/vim-dim
 	url = git@github.com:jeffkreeftmeijer/vim-dim.git
+[submodule "site/pack/myplugins/start/vim-fugitive"]
+	path = site/pack/myplugins/start/vim-fugitive
+	url = https://github.com/tpope/vim-fugitive.git

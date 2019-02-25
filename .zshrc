@@ -9,5 +9,7 @@ PURE_PROMPT_SYMBOL="∂"
 autoload -U promptinit; promptinit
 prompt pure
 
-alias ls="ls -a"
+alias ls="ls -a --color"
+alias vim="nvim"
 
+LS_COLORS=$LS_COLORS:'di=0;35:' ; export LS_COLORS
