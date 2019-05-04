@@ -1,23 +1,14 @@
-plugins=(
-	git
-	colored-man-pages
-)
 
-# oh-my-zsh stuff
-PURE_PROMPT_SYMBOL="∂"
 autoload -U promptinit; promptinit
 prompt pure
 
 # The below line gives color to ls output in
 # iterm2, along with doing the same as above in the next line
 export CLICOLOR=1
-alias ls="ls -a -l"
+alias l="ls -Ahl"
 alias vim="nvim"
 
+autoload -U compinit && compinit
 
-# For macOS using oh-my-zsh and adding Haskell to my Path
-# Path to your oh-my-zsh installation.
-export ZSH="/Users/puffin/.oh-my-zsh"
-export PATH="$HOME/Library/Haskell/bin:$PATH"
-
-
+zstyle ':completion:*' menu select
+eval "$(direnv hook zsh)"

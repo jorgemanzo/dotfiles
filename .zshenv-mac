@@ -1,0 +1,16 @@
+export PATH="$HOME/.cargo/bin:$PATH"
+export PATH="$HOME/Library/Haskell/bin:$PATH"
+
+
+alias osuflip="sshfs \
+    -o sshfs_sync \
+    -o volname=OSU\ FLIP \
+    manzoj@access.engr.oregonstate.edu:/nfs/stak/users/manzoj \
+    /Volumes/OSU_FLIP"
+
+
+mkcd () {
+  mkdir "$1"
+  cd "$1"
+}
+
