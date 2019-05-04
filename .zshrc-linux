@@ -1,6 +1,12 @@
-# The below line gives color to ls output in
-# GNOME terminal, along with showing all dot files and symlinks
-alias ls="ls -a -l --color"
+alias l="ls -Ahl --color"
 alias sshflip="ssh manzoj@access.engr.oregonstate.edu"
+alias mountflip="sshfs manzoj@access.engr.oregonstate.edu:. ~flip"
+alias unmountflip="fusermount -u ~/flip"
+
+# Terminal colors
 LS_COLOR=S$LS_COLORS:'di=0;35:' ; export LS_COLORS
 
+# Tab completions
+autoload -U compinit && compinit
+
+zstyle ':completion:*' menu select
