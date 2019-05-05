@@ -3,6 +3,13 @@ alias sshflip="ssh manzoj@access.engr.oregonstate.edu"
 alias mountflip="sshfs manzoj@access.engr.oregonstate.edu:. ~flip"
 alias unmountflip="fusermount -u ~/flip"
 
+# npm pure prompt goodness, installed globally
+# Using this purer -> https://github.com/DFurnes/purer
+fpath+=($fpath '/usr/local/lib/node_modules/purer-prompt/functions')
+autoload -U promptinit; promptinit
+prompt purer
+PURE_PROMPT_SYMBOL_COLOR=87ffff
+
 # Terminal colors
 LS_COLOR=S$LS_COLORS:'di=0;35:' ; export LS_COLORS
 
@@ -10,3 +17,5 @@ LS_COLOR=S$LS_COLORS:'di=0;35:' ; export LS_COLORS
 autoload -U compinit && compinit
 
 zstyle ':completion:*' menu select
+
+cd
