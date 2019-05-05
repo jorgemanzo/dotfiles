@@ -1,6 +1,6 @@
 alias l="ls -Ahl --color"
 alias sshflip="ssh manzoj@access.engr.oregonstate.edu"
-alias mountflip="sshfs manzoj@access.engr.oregonstate.edu:. ~flip"
+alias mountflip="sshfs manzoj@access.engr.oregonstate.edu:. ~/flip"
 alias unmountflip="fusermount -u ~/flip"
 
 # npm pure prompt goodness, installed globally
