@@ -1,4 +1,6 @@
 # Exports go here. Should be small tasks
+export PATH="$HOME/pebble-dev/pebble-sdk-4.5-linux64/bin:$PATH"
+
 mkcd () {
   mkdir "$1"
   cd "$1"
