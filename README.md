@@ -28,4 +28,4 @@ Symbolic link `~/.config/nvim/init.vim` to the one in this directory
 
 Symbolic link `~/.zshrc` to the `.zshrc-linux` in this directory
 
-run `git submodule update` to get all plugins
+run `git submodule update` to get all plugins.
