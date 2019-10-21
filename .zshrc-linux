@@ -1,13 +1,10 @@
-alias l="ls -Ahl --color"
+alias l="exa -lha"
+alias ls="exa"
+alias c="clear"
 alias sshflip="ssh manzoj@access.engr.oregonstate.edu"
 alias mountflip="sshfs manzoj@access.engr.oregonstate.edu:. ~/flip"
 alias unmountflip="fusermount -u ~/flip"
 
-# npm pure prompt goodness, installed globally
-fpath+=('/usr/local/lib/node_modules/pure-prompt/functions')
-autoload -U promptinit; promptinit
-prompt pure
-PURE_PROMPT_SYMBOL=❯
 # Terminal colors
 LS_COLOR=S$LS_COLORS:'di=0;35:' ; export LS_COLORS
 
@@ -15,5 +12,3 @@ LS_COLOR=S$LS_COLORS:'di=0;35:' ; export LS_COLORS
 autoload -U compinit && compinit
 
 zstyle ':completion:*' menu select
-
-cd
