@@ -1,4 +1,5 @@
 # Exports go here. Should be small tasks
+PROMPT="%~ %(!.%(?.%F{214}λ.%F{5}λ).%(?.%F{63}λ.%F{red}λ))%f "
 source $HOME/.cargo/env
 
 mkcd () {
