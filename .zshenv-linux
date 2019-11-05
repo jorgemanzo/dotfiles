@@ -1,5 +1,7 @@
 # Exports go here. Should be small tasks
 PROMPT="%~ %(!.%(?.%F{214}Ω.%F{5}Ω).%(?.%F{63}λ.%F{red}λ))%f "
+export ROS_OS_OVERRIDE=elementary
+export TURTLEBOT3_MODEL=waffle
 source $HOME/.cargo/env
 
 mkcd () {
