@@ -13,4 +13,3 @@ LS_COLOR=S$LS_COLORS:'di=0;35:' ; export LS_COLORS
 autoload -U compinit && compinit
 
 zstyle ':completion:*' menu select
-source /opt/ros/melodic/setup.zsh
