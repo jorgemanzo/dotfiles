@@ -1,5 +1,7 @@
 alias l="exa -lha"
+alias lc="exa -lha | lolcat"
 alias ls="exa"
+alias lsc="exa | lolcat"
 alias c="clear"
 alias cat="bat"
 alias sshflip="ssh manzoj@access.engr.oregonstate.edu"
