@@ -1,5 +1,7 @@
 # Exports go here. Should be small tasks
 PROMPT="%~ %(!.%(?.%F{214}Ω.%F{5}Ω).%(?.%F{63}λ.%F{red}λ))%f "
+export QT_AUTO_SCREEN_SCALE_FACTOR=0
+export QT_SCREEN_SCALE_FACTORS=1
 source $HOME/.cargo/env
 
 mkcd () {
