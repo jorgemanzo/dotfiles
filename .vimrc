@@ -10,5 +10,5 @@ call plug#end()
 :set background=dark
 :colorscheme hybrid
 :hi Normal guibg=NONE ctermbg=NONE
-:set tabstop=8 softtabstop=0 expandtab shiftwidth=4
+:set tabstop=2 softtabstop=0 expandtab shiftwidth=2
 
