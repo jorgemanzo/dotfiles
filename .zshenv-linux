@@ -1,5 +1,5 @@
 # Exports go here. Should be small tasks
-PROMPT="%~ %(!.%(?.%F{214}Ω.%F{5}Ω).%(?.%F{63}λ.%F{red}λ))%f "
+PROMPT="[%~] - %(!.%(?.%F{214}Ω.%F{5}Ω).%(?.%F{63}λ.%F{red}λ))%f "
 
 source $HOME/.cargo/env
 
