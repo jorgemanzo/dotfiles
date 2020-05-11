@@ -71,7 +71,7 @@ let g:vim_json_syntax_conceal = 0
 " GraphQL syntax highlighting
 Plug 'jparise/vim-graphql'
 call plug#end()
-set tabstop=8 softtabstop=0 expandtab shiftwidth=4 smarttab
+set tabstop=8 softtabstop=0 expandtab shiftwidth=2 smarttab
 
 set termguicolors
 set laststatus=2
