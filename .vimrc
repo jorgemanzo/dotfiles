@@ -22,7 +22,6 @@ let g:enable_italic_font = 1 "Italic comments
 let g:hybrid_transparent_background = 1 "transparent bg
 call plug#begin('~/.vim/plugged')
 Plug 'tpope/vim-surround' "Helps change parens, quotes, etc
-Plug 'arrufat/vala.vim'
 Plug 'kristijanhusak/vim-multiple-cursors' "Multi select with ctrl-n
 Plug 'nathanaelkane/vim-indent-guides' "Visulizes indentation
 Plug 'tomtom/tcomment_vim' "Toggle comments
