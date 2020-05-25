@@ -3,6 +3,7 @@ alias lc="exa -lha | lolcat"
 alias ls="exa"
 alias lsc="exa | lolcat"
 alias c="clear"
+alias vim="nvim"
 alias cat="bat"
 alias docker="sudo docker"
 alias sshflip="ssh manzoj@access.engr.oregonstate.edu"
@@ -10,7 +11,7 @@ alias mountflip="sshfs manzoj@access.engr.oregonstate.edu:. ~/flip"
 alias unmountflip="fusermount -u ~/flip"
 
 # Terminal colors
-LS_COLOR=S$LS_COLORS:'di=0;35:' ; export LS_COLORS
+# LS_COLOR=S$LS_COLORS:'di=0;35:' ; export LS_COLORS
 
 # cowsay fortune
 fortune | cowsay
@@ -22,3 +23,9 @@ zstyle ':completion:*' menu select
 
 bindkey "^[[1;5C" forward-word
 bindkey "^[[1;5D" backward-word
+
+# Base16 Shell
+BASE16_SHELL="$HOME/.config/base16-shell/"
+[ -n "$PS1" ] && \
+    [ -s "$BASE16_SHELL/profile_helper.sh" ] && \
+        eval "$("$BASE16_SHELL/profile_helper.sh")"
