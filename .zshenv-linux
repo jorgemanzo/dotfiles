@@ -2,6 +2,8 @@
 PROMPT="[%~] - %(!.%(?.%F{214}Ω.%F{5}Ω).%(?.%F{63}λ.%F{red}λ))%f "
 
 source $HOME/.cargo/env
+export PATH=/usr/bin/meson:$PATH
+export PATH=/snap/bin:$PATH
 
 mkcd () {
   mkdir "$1"
