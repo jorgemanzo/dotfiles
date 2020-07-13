@@ -1,4 +1,7 @@
 #!/bin/bash
-code --install-extension equinusocio.vsc-material-theme
-code --install-extension ms-azuretools.vscode-docker
-code --install-extension onecentlin.laravel-blade
+
+printf "Installing extensions........\n"
+
+while read extension; do
+    code --install-extension $extension
+done < vscode_extensions
