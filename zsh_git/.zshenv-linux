@@ -6,7 +6,3 @@ export PATH=/usr/bin/meson:$PATH
 export PATH=/snap/bin:$PATH
 export PATH=$HOME/.config/composer/vendor/bin:$PATH
 
-mkcd () {
-  mkdir "$1"
-  cd "$1"
-}

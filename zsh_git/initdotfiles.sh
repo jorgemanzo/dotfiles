@@ -1,5 +1,5 @@
 #!/bin/bash
 
-./makelinks.sh
+./makelinks.sh $1
 ./setgit.sh
 printf "Done!\n"
