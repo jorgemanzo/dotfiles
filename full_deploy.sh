@@ -22,6 +22,12 @@ printf "Making you an ssh-key............\n"
 
 ssh-keygen -t ed25519 -b 4096
 
+printf "Cloning dotfiles repo.............\n"
+
+git clone https://github.com/jorgemanzo/dotfiles.git
+
+cd dotfiles/
+
 printf "Linking dotfiles.........\n"
 
 ./zsh_git/initdotfiles.sh linux
