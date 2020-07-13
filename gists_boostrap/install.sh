@@ -11,16 +11,14 @@ apt install enpass
 
 printf "My Common Apps...........\n"
 
-apt install firefox git zsh elementary-sdk neovim com.github.donadigo.eddy flatpak
+apt install firefox git zsh elementary-sdk git neovim com.github.donadigo.eddy flatpak
 
 printf "Installing vscode and slack via flatpak..........\n"
 
 flatpak install com.visualstudio.code com.slack.Slack
 
-printf "Making your ssh-key............\n"
+printf "Making you an ssh-key............\n"
 
 ssh-keygen -t ed25519 -b 4096
 
-printf "Done! Now you clone your dotfiles and do a full deploy!"
 
-runuser -l $SUDO_USER -c "DISPLAY=:0 firefox --private-window www.github.com"
