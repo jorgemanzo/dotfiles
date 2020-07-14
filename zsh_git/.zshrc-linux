@@ -3,7 +3,6 @@ alias ls="exa"
 alias c="clear"
 alias vim="nvim"
 alias cat="bat"
-alias docker="sudo docker"
 
 # Terminal colors
 # LS_COLOR=S$LS_COLORS:'di=0;35:' ; export LS_COLORS
