@@ -8,11 +8,11 @@ wget -O - https://apt.enpass.io/keys/enpass-linux.key | apt-key add -
 
 apt update
 
-apt install enpass
+apt install -y enpass
 
 printf "My Common Apps...........\n"
 
-apt install firefox git zsh elementary-sdk git neovim com.github.donadigo.eddy flatpak docker docker-compose
+apt install -y firefox git zsh elementary-sdk git neovim com.github.donadigo.eddy flatpak docker docker-compose
 
 printf "Creating docker group and adding you to it........\n"
 
