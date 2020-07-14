@@ -36,5 +36,6 @@
     "materialTheme.accent": "Purple",
     "explorer.confirmDragAndDrop": false,
     "workbench.iconTheme": "eq-material-theme-icons-palenight",
-    "editor.lineHeight": 40
+    "editor.lineHeight": 50,
+    "git.autofetch": true
 }
