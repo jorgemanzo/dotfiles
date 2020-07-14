@@ -12,7 +12,7 @@ apt install -y enpass
 
 printf "My Common Apps...........\n"
 
-apt install -y firefox git zsh elementary-sdk git neovim com.github.donadigo.eddy flatpak docker docker-compose
+apt install -y firefox git zsh git neovim com.github.donadigo.eddy flatpak docker docker-compose
 
 printf "Creating docker group and adding you to it........\n"
 
