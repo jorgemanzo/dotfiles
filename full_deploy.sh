@@ -22,7 +22,11 @@ usermod -aG docker $USER
 
 printf "Installing vscode and slack via flatpak..........\n"
 
-flatpak install com.visualstudio.code com.slack.Slack
+flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+
+flatpak install -y flathub com.visualstudio.code
+
+flatpak install -y flathub com.slack.Slack
 
 printf "Making you an ssh-key............\n"
 
