@@ -12,7 +12,7 @@ apt install -y enpass
 
 printf "My Common Apps...........\n"
 
-apt install -y firefox git zsh git neovim com.github.donadigo.eddy flatpak docker docker-compose
+apt install -y firefox git zsh git neovim com.github.donadigo.eddy flatpak docker docker-compose snapd
 
 printf "Creating docker group and adding you to it........\n"
 
@@ -27,6 +27,10 @@ flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flat
 flatpak install -y flathub com.visualstudio.code
 
 flatpak install -y flathub com.slack.Slack
+
+printf "Installing heroku CLI via snap.......\n"
+
+snap install --classic heroku
 
 printf "Making you an ssh-key............\n"
 
