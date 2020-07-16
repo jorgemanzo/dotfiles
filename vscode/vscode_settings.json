@@ -1,7 +1,7 @@
 {
     "workbench.startupEditor": "newUntitledFile",
     "workbench.colorTheme": "Material Theme Palenight High Contrast",
-    "editor.fontSize": 18,
+    "editor.fontSize": 20,
     "debug.console.fontSize": 18,
     "markdown.preview.fontSize": 18,
     "terminal.integrated.fontSize": 18,
@@ -37,5 +37,6 @@
     "explorer.confirmDragAndDrop": false,
     "workbench.iconTheme": "eq-material-theme-icons-palenight",
     "editor.lineHeight": 50,
-    "git.autofetch": true
+    "git.autofetch": true,
+    "extensions.ignoreRecommendations": true
 }
