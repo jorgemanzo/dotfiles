@@ -39,7 +39,5 @@
     "git.autofetch": true,
     "javascript.updateImportsOnFileMove.enabled": "always",
     "window.zoomLevel": 0,
-    "mesonbuild.configureOnOpen": false,
-    "terminal.integrated.shell.linux": "/usr/bin/env",
-    "terminal.integrated.shellArgs.linux": ["--", "flatpak-spawn", "--host", "zsh"]
+    "mesonbuild.configureOnOpen": false
 }
