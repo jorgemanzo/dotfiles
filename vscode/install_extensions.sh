@@ -3,5 +3,5 @@
 printf "Installing extensions........\n"
 
 while read extension; do
-    code --install-extension $extension
+    flatpak run com.visualstudio.code --install-extension $extension
 done < vscode_extensions

@@ -2,4 +2,4 @@
 
 printf "Saving installed extensions into vscode_extensions............\n"
 
-code --list-extensions > vscode_extensions
+flatpak run com.visualstudio.code --list-extensions > vscode_extensions
