@@ -3,7 +3,7 @@ PROMPT="[%~] - %(!.%(?.%F{214}Ω.%F{5}Ω).%(?.%F{63}λ.%F{red}λ))%f "
 
 source $HOME/.cargo/env
 export PATH=/snap/bin:$PATH
-export PATH=$HOME$HOME/.composer/vendor/bin:$PATH
+export PATH=$HOME/.composer/vendor/bin:$PATH
 export PATH=$HOME/.local/bin:$PATH
 export PATH=$HOME/code/dotfiles/scripts:$PATH
 
