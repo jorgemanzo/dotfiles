@@ -6,4 +6,5 @@ export PATH=/snap/bin:$PATH
 export PATH=$HOME/.composer/vendor/bin:$PATH
 export PATH=$HOME/.local/bin:$PATH
 export PATH=$HOME/code/dotfiles/scripts:$PATH
+export PATH=$PATH:/usr/local/go/bin
 
